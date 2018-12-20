@@ -66,6 +66,14 @@ view: mdppc_looker_view {
     type: date_time
     sql:  max(${date_beg_lcl_time}) ;;
   }
+  dimension: min_time_dim {
+    type: date_time_of_day
+    sql:  min(${date_beg_lcl_time}) ;;
+  }
 
+  dimension: max_time_dim {
+    type: date_time_of_day
+    sql:  max(${date_beg_lcl_time}) ;;
+  }
 
 }
