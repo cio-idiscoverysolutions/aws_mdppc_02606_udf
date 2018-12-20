@@ -58,12 +58,12 @@ view: mdppc_looker_view {
 
   measure: min_time {
     type: date_time
-    sql:  min(${date_beg_lcl_time} ;;
+    sql:  min(${date_beg_lcl_time}) ;;
   }
 
   measure: max_time {
     type: date_time
-    sql:  ${max_time}(${date_beg_lcl_time} ;;
+    sql:  max(${date_beg_lcl_time}) ;;
   }
 
 

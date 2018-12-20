@@ -16,6 +16,8 @@ explore: gps_temp {}
 
 explore: primary_audit {}
 
+explore: mdppc_looker_view {}
+
 explore: relationship {}
 
 explore: script {
@@ -35,5 +37,7 @@ explore: user_saves {
     relationship: many_to_one
   }
 }
+
+
 
 explore: users {}
