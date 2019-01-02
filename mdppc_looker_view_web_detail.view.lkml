@@ -30,6 +30,23 @@ view: mdppc_looker_view_web_detail {
     sql: ${TABLE}.DATE_END_LCL ;;
   }
 
+dimension_group: date_beg_lcl_time {
+  type:  time
+  timeframes: [
+      raw,
+      time,
+      date,
+      week,
+      month,
+      quarter,
+      year
+  ]
+  sql: ${TABLE}.date_beg_lcl_time ;;
+
+
+}
+
+
   dimension: evt_name {
     type: string
     sql: ${TABLE}.evt_name ;;
