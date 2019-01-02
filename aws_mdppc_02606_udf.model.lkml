@@ -18,6 +18,8 @@ explore: primary_audit {}
 
 explore: mdppc_looker_view {}
 
+explore: mdppc_looker_view_web_detail {}
+
 explore: relationship {}
 
 explore: script {
