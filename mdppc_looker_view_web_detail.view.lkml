@@ -6,6 +6,7 @@ view: mdppc_looker_view_web_detail {
     timeframes: [
       raw,
       time,
+      time_of_day,
       date,
       week,
       month,
