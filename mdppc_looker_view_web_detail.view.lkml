@@ -57,9 +57,9 @@ dimension_group: date_beg_lcl_time {
     sql: ${TABLE}.full_name ;;
   }
 
-  dimension: src_ame {
+  dimension: src_name {
     type: string
-    sql: ${TABLE}.src_ame ;;
+    sql: ${TABLE}.src_name ;;
   }
 
   dimension: url {
